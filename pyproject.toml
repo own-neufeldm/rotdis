@@ -3,21 +3,21 @@ requires = ["setuptools>=65.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "${PROJECT_NAME}"
-version = "0.0.1"
+name = "pyscreen"
+version = "1.0.0"
 authors = [{ name = "Martin Neufeld" }]
-description = "${PROJECT_DESCRIPTION}"
+description = "This is a Python app for rotating the display in Windows 10."
 readme = "README.md"
-requires-python = "${PROJECT_REQUIRES_PYTHON}"
+requires-python = ">=3.11"
 classifiers = [
   "Programming Language :: Python :: 3",
   "License :: OSI Approved :: MIT License",
-  "Operating System :: ${PROJECT_CLASSIFIER_OPERATING_SYSTEM}",
+  "Operating System :: Microsoft :: Windows :: Windows 10",
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/shyguys/${PROJECT_NAME}"
-"Bug Tracker" = "https://github.com/shyguys/${PROJECT_NAME}/issues"
+"Homepage" = "https://github.com/shyguys/pyscreen"
+"Bug Tracker" = "https://github.com/shyguys/pyscreen/issues"
 
 [project.scripts]
-${PROJECT_NAME} = "${PROJECT_NAME}.__main__:main"
+pyscreen = "pyscreen.__main__:main"

@@ -1,6 +1,6 @@
-# ${PROJECT_NAME}
+# pyscreen
 
-${PROJECT_DESCRIPTION}
+This is a Python app for rotating the display in Windows 10.
 
 ## Installation
 
@@ -11,4 +11,6 @@ Follow these steps to install the app:
 
 ## Usage
 
-Not provided.
+Follow these steps to run the app:
+
+1. Run `pyscreen`
