@@ -1,8 +1,8 @@
-import myscreen.display
+import rotdis.display
 
 
 def main() -> None:
-    display = myscreen.display.get_primary_display()
+    display = rotdis.display.get_primary_display()
     rotation = display.get_rotation()
     if rotation == 0:
         display.set_rotation(90)
