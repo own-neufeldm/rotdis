@@ -1,4 +1,4 @@
-# pyscreen
+# myscreen
 
 This is a Python app for rotating the display in Windows 10.
 
@@ -13,4 +13,4 @@ Follow these steps to install the app:
 
 Follow these steps to run the app:
 
-1. Run `pyscreen`
+1. Run `myscreen`

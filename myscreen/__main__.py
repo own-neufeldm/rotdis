@@ -1,8 +1,8 @@
-import pyscreen.display
+import myscreen.display
 
 
 def main() -> None:
-    display = pyscreen.display.get_primary_display()
+    display = myscreen.display.get_primary_display()
     rotation = display.get_rotation()
     if rotation == 0:
         display.set_rotation(90)

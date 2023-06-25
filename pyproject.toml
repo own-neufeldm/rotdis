@@ -3,7 +3,7 @@ requires = ["setuptools>=65.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pyscreen"
+name = "myscreen"
 version = "1.0.0"
 requires-python = ">=3.11"
 classifiers = [
@@ -11,4 +11,4 @@ classifiers = [
 ]
 
 [project.scripts]
-pyscreen = "pyscreen.__main__:main"
+myscreen = "myscreen.__main__:main"
