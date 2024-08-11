@@ -2,15 +2,40 @@
 
 This is a Python app for rotating the display in Windows 10.
 
-## Installation
+## Requirements
 
-Follow these steps to install the app:
+The following dependencies must already be installed on your system:
 
-1. Clone this repository and `cd` into it
-2. Install as a local package: `pip install -e .`
+| Dependency                                  | Version |
+| ------------------------------------------- | ------- |
+| [python](https://www.python.org/downloads/) | ^3.12   |
+| [pipx](https://pipx.pypa.io/stable/)        | ^1.6    |
+
+This app was written on and for Windows 10 (x64). It may work on other operating systems but it is
+not officially supported.
+
+## Setup
+
+Install the app using `pipx`, e.g. directly from GitHub using SSH:
+
+```
+$ pipx install git+ssh://git@github.com/own-neufeldm/rotdis.git
+
+  installed package mymkv 1.0.0, installed using Python 3.12.5
+  These apps are now globally available
+    - rotdis.exe
+done! ✨ 🌟 ✨
+```
+
+You can now run the app using `rotdis`.
 
 ## Usage
 
-Follow these steps to run the app:
+Upon running `rotdis`, the app will rotate your display depending on the current orientation:
 
-1. Run `rotdis`
+| Orientation before | Orientation after |
+| ------------------ | ----------------- |
+| Landscape (0)      | Portrait (90)     |
+| Portrait (90)      | Landscape (0)     |
+
+Other orientations are not supported at the moment.
