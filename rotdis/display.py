@@ -31,7 +31,7 @@ class Display:
 
     def set_rotation(self, degree: int) -> None:
         """Sets the rotation of this display
-        
+
         Args:
             degree: The degree of rotation, must be one of [0, 90, 180, 270].
         """
