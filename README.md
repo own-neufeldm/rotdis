@@ -21,7 +21,7 @@ Install the app using `pipx`, e.g. directly from GitHub using SSH:
 ```
 $ pipx install git+ssh://git@github.com/own-neufeldm/rotdis.git
 
-  installed package mymkv 1.0.0, installed using Python 3.12.5
+  installed package rotdis 1.0.1, installed using Python 3.12.5
   These apps are now globally available
     - rotdis.exe
 done! ✨ 🌟 ✨
