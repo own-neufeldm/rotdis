@@ -5,7 +5,7 @@ build-backend = "poetry_dynamic_versioning.backend"
 [tool.poetry]
 name = "rotdis"
 version = "0.0.0"
-description = "App for rotating the display in Windows 10"
+description = "App for rotating the display in Windows 10."
 authors = ["Martin Neufeld <m.neufeld946@gmail.com>"]
 license = "MIT"
 readme = "README.md"
